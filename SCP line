@@ -1,0 +1,1 @@
+scp "filename" pi@"ipaddress":/home/pi/Arm/

@@ -110,6 +110,10 @@ public class Arm
         // draw Field Of View
         UI.setColor(Color.GRAY);
         UI.drawRect(0,0,640,480);
+        
+        //draw Estimated reach zone
+        UI.setColor(Color.RED);
+        UI.drawRect(230,100,200,150);
 
         // it can b euncommented later when
         // kinematic equations are derived

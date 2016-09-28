@@ -75,8 +75,8 @@ public class Arm
         xj2 = xm2 + r*Math.cos(theta2);
         yj2 = ym2 + r*Math.sin(theta2);
 
-        pwm1_val_1 = -9.3 * (theta1 / (Math.PI/2) * 360) + 646.7;
-        pwm1_val_2 = -10.4 * (theta2 / (Math.PI/2) * 360) + 717.6;
+        pwm1_val_1 = -9.3 * ((theta1*180)/Math.PI) + 646.7;
+        pwm1_val_2 = -10.4 * ((theta2*180)/Math.PI) + 717.6;
         
 
         //draw motors and write angles
